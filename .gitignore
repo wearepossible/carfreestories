@@ -62,4 +62,4 @@ typings/
 .next
 
 # development config.js files
-/src/config.js
+# /src/config.js
