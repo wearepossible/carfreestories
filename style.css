@@ -17,12 +17,12 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
-    max-width: 700px;
+    max-width: 800px;
     text-align: center;
 }
 #header h1, #header h2 {
     margin: 0;
-    padding: 1vh 2vw;
+    padding: 0 6vw;
     font-weight: 800;
 }
 
@@ -38,7 +38,6 @@ h1 {
 
 h2 {
     font-size: 200%;
-    max-width: 600px;
 }
 
 #header p {

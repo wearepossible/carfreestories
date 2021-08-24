@@ -135,6 +135,120 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+        },
+        {
+            id: 'boston',
+            alignment: 'left',
+            hidden: false,
+            title: 'Boston – trialling free public transport to end car dependency',
+            image: 'images/boston.jpg',
+            description: "<p>Research investigating transport habits in the cities of Boston and Cambridge in the US found that nearly 30 percent of people who normally commute by car were prepared to change their habits and give up their permanent parking permits following a short free-transit trial. The majority switched to holding just an occasional parking permit with some making a full switch to the use of public transport. After a six month period, one in four maintained the change.</p>",
+            location: {
+                center: [-71.0589, 42.3601],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'stockholm',
+            alignment: 'right',
+            hidden: false,
+            title: 'Stockholm: congestion charging – from fierce opposition to popularity',
+            image: 'images/stockholm.jpg',
+            description: "<p>In 2006, in Stockholm, Sweden, congestion charging was introduced to control excess traffic. At the time it was remarkably successful and cheap. Priced at a couple of euros per driver, the policy saw a 20 percent reduction in car traffic during rush hours.</p><p>But this form of road pricing faced strong public opposition when it was first introduced with around seven out of ten people against it. Once people had lived with the changes for a while, however, things changed dramatically. Five years after its introduction, in 2011, opposition had switched to support. As many of the public - seven out of ten - were now in favour of the scheme as had been against it.</p><p>Stockholm&rsquo;s initiative revealed two other important insights. The first was the speed with which car users responded to measures like road pricing. When there was a pause in the policy in mid-2006, traffic levels increased overnight, quickly returning to almost the same levels as before the scheme.&nbsp;</p><p>The second point of interest was the way in which people adapted, to the point that many could not remember, or even admit to, ever having been opposed to the measures in the first place. This emerged during research to discover who amongst drivers had experienced a change of heart. But the findings didn&rsquo;t correlate because a disproportionate number claimed always to have been in favour of the congestion charges.</p>",
+            location: {
+                center: [18.0686, 59.3293],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'madrid',
+            alignment: 'left',
+            hidden: false,
+            title: 'Madrid – where the public want change, even if some politicians don’t',
+            image: 'images/madrid.jpg',
+            description: "<p>Madrid in Spain, another European city that has become known for congestion, was taking steps well before the coronavirus pandemic struck.</p><p>But it followed in earlier steps taken by places like Pontevedra, Northern Spain, which serves as a model of the local transformation that giving urban space back to people can bring. The city returned its 300,000 square metre city centre to pedestrians in 1999 and as a consequence brought multiple economic, social and health benefits to residents. Since banning cars, Pontevedra has enjoyed a drastic drop in traffic accidents, reduced anti-social behaviour and lower pollution levels. With three quarters of all journeys formerly made by car now made on foot or by bike, there have been positive health outcomes for fitter, local citizens too.&nbsp;</p><p>Similarly, following suit to improve life in the city and open up its streets for people Madrid decided also to reduce access for cars. In 2018 Madrid made the centre of the city into an &lsquo;ultra low emission zone&rsquo; which effectively banned most cars.</p><p>On this occasion the scheme proved popular from the outset with the active support of a significant majority of the public with 64 percent of city residents in favour.. Within months of Madrid&rsquo;s measures being introduced levels of the toxic vehicle pollutant, nitrogen dioxide, were reportedly down by 48 percent.</p><p>However, in 2019, when a rightwing political party won power in the city government, it moved to suspend the congestion reduction initiative. In response, a mass demonstration was organised by <em>Plataforma en Defensa de Madrid Central</em> to reintroduce the measures. Then, when a legal case was brought against the suspension, an administrative court judge in the city overruled the new council, restoring the popular scheme.</p>",
+            location: {
+                center: [-3.7038, 40.4168],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'jakarta',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jakarta – home of the Car Free Day',
+            image: 'images/jakarta.jpg',
+            description: "<p>In Jakarta there is a Car Free Day weekly. Not just an annual event like the traditional World Car Free Day, it has been held every Sunday since 2012 on the city’s main avenues. Jakarta is the most high profile Indonesian city to start weekly car free days, but it wasn’t the first - they were led by Bogor and Malang. Each week the streets are reclaimed by people and given over to a wide variety of activities, with many also enjoying walks, the absence of traffic and cleaner air. The event proves extremely popular with children, families and young people.</p>",
+            location: {
+                center: [106.8456, -6.2088],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'paris',
+            alignment: 'left',
+            hidden: false,
+            title: 'Paris - the plan to bring back breathable air',
+            image: 'images/paris.jpg',
+            description: "<p>The Paris Mayor, Anne Marie Hidalgo, is pioneering some of the most ambitious urban improvement measures linked to reducing the number of cars on the city&rsquo;s streets. In a direct response to the coronavirus pandemic, Paris introduced a further 50km of emergency bike lanes, for a total planned of 650km. It did so in just a few weeks and created the space for bikes by using semi-rigid posts and traffic barricades.</p><p>Like many well-established cities Paris was not built for modern volumes of vehicle traffic and there had been several previous attempts at tackling congestion and pollution. In 2014 the city was experiencing a serious decline in air quality. In response it experimented with a version of the &lsquo;odd / even&rsquo; scheme made famous by Delhi. Public transport was also made free in order to tempt people away from their cars. In spite of the crisis, the measures were criticised by the political opposition leader Jean-Francois Cope - who complained of there being &lsquo;panic&rsquo; on the ground.</p><p>In 2018, older petrol and diesel vehicles were banned from the city between 8am and 8pm and diesel cars are due to be banned outright in 2024 and petrol cars in 2030. These measures have also faced opposition from groups lobbying on behalf of motorists. However Hidalgo stood for reelection in 2020 with a policy on banning cars being central to her campaign and in the end, she was successfully re-elected and garnered 20% more of the vote than her nearest rival - proving the popularity of these measures.</p>",
+            location: {
+                center: [2.3522, 48.8566],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'strasbourg',
+            alignment: 'right',
+            hidden: false,
+            title: 'Strasbourg - from opposition to acceptance of traffic reduction',
+            image: 'images/strasbourg.jpg',
+            description: "<p>In 1992 Strasbourg, France embarked on a &lsquo;plan de circulation&rsquo; that would see the expansion of central areas opened-up for public transport and active travel - cycling and walking - and closed to private cars. Following a familiar pattern, there were warnings that the exclusion of private cars from the centre would lead to &lsquo;chaos&rsquo; and congestion. But, once again, the upheaval did not materialise.</p><p>The scheme was designed to improve quality of life, reduce pollution and make the city more attractive to residents and visitors by encouraging a full modal shift in people&rsquo;s travelling habits, switching to active travel and public transport. Along with the scheme came a new tramline which led to a 17 percent reduction in traffic coming into the wider city area in its first year alone. Its success led to two further tramlines being installed by 2010. Over the course of a decade from 1989 to 1999, trips made by public transport went up from 11 percent to 30 percent.</p><p>But it wasn&rsquo;t easy. There was a powerful opposition campaign that feared that the physical changes and pedestrianisation would reduce the number of customers. The city engaged in widespread consultation and also staged a major communications exercise &ndash; with a popular &lsquo;bear&rsquo; symbol and comprehensive signage explaining the changes. There was also a phone-in advice line. The scheme ultimately proved to be a popular and political success with some businesses and residents even calling for a further expansion of traffic reduction measures. Property values were enhanced and the use of parking restrictions triggered greater turnover for businesses.&nbsp;</p><p>Strasbourg also innovated as the first city in France to use an &lsquo;intelligent traffic management system&rsquo;. The approach works by reducing the number of stop-and-go waves along its roads, cutting vehicle stops by 9% which lowers emissions of harmful nitrogen oxide and particulates by 8% and 9% respectively. Trams are also given priority over other forms of traffic.</p>",
+            location: {
+                center: [7.7521, 48.5734],
+                zoom: 11,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         }
     ]
 };
