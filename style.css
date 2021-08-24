@@ -1,10 +1,10 @@
 body {
     margin:0;
     padding:0;
-    font-family: sans-serif;
+    font-family: Poppins, sans-serif;
 }
 a, a:hover, a:visited {
-    color: #0071bc;
+    color: #BF0978;
 }
 #map {
     top:0;
@@ -17,12 +17,36 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
-}
-#header h1, #header h2, #header p {
-    margin: 0;
-    padding: 2vh 2vw;
+    max-width: 700px;
     text-align: center;
 }
+#header h1, #header h2 {
+    margin: 0;
+    padding: 1vh 2vw;
+    font-weight: 800;
+}
+
+#header img {
+    width: 50%;
+    padding-top: 7vh;
+}
+
+h1 {
+    font-size: 400%;
+    color: #BF0978;
+}
+
+h2 {
+    font-size: 200%;
+    max-width: 600px;
+}
+
+#header p {
+    margin: 0;
+    padding: 2vh 2vw;
+    text-align: left;
+}
+
 #footer {
     width: 100%;
     min-height: 5vh;
@@ -58,12 +82,12 @@ a, a:hover, a:visited {
     margin: auto;
 }
 .light {
-    color: #444;
-    background-color: #fafafa;
+    color: #321d49;
+    background-color: #fff;
 }
 .dark {
-    color: #fafafa;
-    background-color: #444;
+    color: #fff;
+    background-color: #321d49;
 }
 .step {
     padding-bottom: 50vh;
@@ -77,7 +101,7 @@ a, a:hover, a:visited {
 .step div {
     padding:  25px 50px;
     line-height: 25px;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .step img {

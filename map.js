@@ -40,6 +40,12 @@ features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
 
+if (config.logo) {
+    var logoImg = document.createElement('img');
+    logoImg.setAttribute('src', config.logo);
+    header.appendChild(logoImg);
+}
+
 if (config.title) {
     var titleText = document.createElement('h1');
     titleText.innerText = config.title;
@@ -57,6 +63,12 @@ if (config.byline) {
     bylineText.innerText = config.byline;
     header.appendChild(bylineText);
 }
+
+if (config.intro) {
+        var intro = document.createElement('p');
+        intro.innerHTML = config.intro;
+        header.appendChild(intro);
+    }
 
 if (header.innerText.length > 0) {
     header.classList.add(config.theme);
