@@ -102,7 +102,7 @@ h2 {
     background-color: #fff;
     border-color: #BF0978;
     border-style: dashed;
-    border-width: 2px;
+    border-width: 4px;
 }
 .dark {
     color: #fff;
@@ -189,3 +189,6 @@ ul.share-buttons{
     touch-action: unset;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
