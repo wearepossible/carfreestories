@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/wearepossible/ckqkrwzut17rz17nvd91mrtzq',
     accessToken: 'pk.eyJ1Ijoid2VhcmVwb3NzaWJsZSIsImEiOiJja3FrcXhyN3UwNjQyMnBwZHo0MWF5NGFkIn0.dCuqVp9drHXWjCfafa_psA',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#BF0978',
     theme: 'light',
     use3dTerrain: false,
