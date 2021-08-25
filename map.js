@@ -1,4 +1,3 @@
-
 var layerTypes = {
     'fill': ['fill-opacity'],
     'line': ['line-opacity'],
@@ -41,8 +40,9 @@ features.setAttribute('id', 'features');
 var header = document.createElement('div');
 
 if (config.logo) {
-    var logoImg = document.createElement('img');
-    logoImg.setAttribute('src', config.logo);
+    var logoImg = document.createElement('div');
+    logoImg.innerHTML = config.logo;
+    logoImg.setAttribute('id', 'logo');
     header.appendChild(logoImg);
 }
 
@@ -65,10 +65,11 @@ if (config.byline) {
 }
 
 if (config.intro) {
-        var intro = document.createElement('p');
-        intro.innerHTML = config.intro;
-        header.appendChild(intro);
-    }
+    var intro = document.createElement('div');
+    intro.innerHTML = config.intro;
+    intro.setAttribute('id', 'intro');
+    header.appendChild(intro);
+}
 
 if (header.innerText.length > 0) {
     header.classList.add(config.theme);
@@ -135,7 +136,7 @@ const transformRequest = (url) => {
     const hasQuery = url.indexOf("?") !== -1;
     const suffix = hasQuery ? "&pluginName=scrollytellingV2" : "?pluginName=scrollytellingV2";
     return {
-      url: url + suffix
+        url: url + suffix
     }
 }
 
@@ -183,42 +184,43 @@ map.on("load", function() {
 
     // setup the instance, pass callback functions
     scroller
-    .setup({
-        step: '.step',
-        offset: 0.5,
-        progress: true
-    })
-    .onStepEnter(response => {
-        var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.add('active');
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
-        if (config.showMarkers) {
-            marker.setLngLat(chapter.location.center);
-        }
-        if (chapter.onChapterEnter.length > 0) {
-            chapter.onChapterEnter.forEach(setLayerOpacity);
-        }
-        if (chapter.callback) {
-            window[chapter.callback]();
-        }
-        if (chapter.rotateAnimation) {
-            map.once('moveend', function() {
-                const rotateNumber = map.getBearing();
-                map.rotateTo(rotateNumber + 90, {
-                    duration: 24000, easing: function (t) {
-                        return t;
-                    }
+        .setup({
+            step: '.step',
+            offset: 0.5,
+            progress: true
+        })
+        .onStepEnter(response => {
+            var chapter = config.chapters.find(chap => chap.id === response.element.id);
+            response.element.classList.add('active');
+            map[chapter.mapAnimation || 'flyTo'](chapter.location);
+            if (config.showMarkers) {
+                marker.setLngLat(chapter.location.center);
+            }
+            if (chapter.onChapterEnter.length > 0) {
+                chapter.onChapterEnter.forEach(setLayerOpacity);
+            }
+            if (chapter.callback) {
+                window[chapter.callback]();
+            }
+            if (chapter.rotateAnimation) {
+                map.once('moveend', function() {
+                    const rotateNumber = map.getBearing();
+                    map.rotateTo(rotateNumber + 90, {
+                        duration: 24000,
+                        easing: function(t) {
+                            return t;
+                        }
+                    });
                 });
-            });
-        }
-    })
-    .onStepExit(response => {
-        var chapter = config.chapters.find(chap => chap.id === response.element.id);
-        response.element.classList.remove('active');
-        if (chapter.onChapterExit.length > 0) {
-            chapter.onChapterExit.forEach(setLayerOpacity);
-        }
-    });
+            }
+        })
+        .onStepExit(response => {
+            var chapter = config.chapters.find(chap => chap.id === response.element.id);
+            response.element.classList.remove('active');
+            if (chapter.onChapterExit.length > 0) {
+                chapter.onChapterExit.forEach(setLayerOpacity);
+            }
+        });
 });
 
 // setup resize event

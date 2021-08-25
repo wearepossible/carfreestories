@@ -41,9 +41,13 @@ h2 {
     font-size: 200%;
 }
 
-#header p {
+#intro {
+    padding: 4vh 0 8vh 0;
+}
+
+#intro p {
     margin: 0;
-    padding: 2vh 2vw;
+    padding: 2vh 4vw;
     text-align: left;
 }
 
@@ -86,7 +90,7 @@ h2 {
     background-color: #fff;
     border-color: #BF0978;
     border-style: dashed;
-    border-width: 2px;
+    border-width: -2px;
 }
 .dark {
     color: #fff;
