@@ -44,13 +44,17 @@ h2 {
 }
 
 #intro {
-    padding: 2vh 0 4vw 0;
+    padding: 1vh 0;
 }
 
 #intro p {
     margin: 0;
     padding: 1vh 4vw;
     text-align: left;
+}
+
+#minimap h3 {
+    color: #BF0978;
 }
 
 #minimap svg {
