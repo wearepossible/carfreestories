@@ -17,13 +17,12 @@ a, a:hover, a:visited {
     width: 100%;
     position: relative;
     z-index: 5;
-    max-width: 800px;
+    max-width: 750px;
     text-align: center;
     margin-top: 3vh;
 }
 #header h1, #header h2 {
     margin: 0;
-    padding: 0 6vw;
     font-weight: 800;
 }
 
@@ -33,22 +32,31 @@ a, a:hover, a:visited {
 }
 
 h1 {
+    padding: 2vh 2vw;
     font-size: 400%;
     color: #BF0978;
+    line-height: 100%;
 }
 
 h2 {
+    padding: 2vh 4vw;
     font-size: 200%;
 }
 
 #intro {
-    padding: 4vh 0 8vh 0;
+    padding: 2vh 0 4vw 0;
 }
 
 #intro p {
     margin: 0;
-    padding: 2vh 4vw;
+    padding: 1vh 4vw;
     text-align: left;
+}
+
+#minimap svg {
+    width: 90%;
+    height: auto;
+    padding-bottom: 2vh;
 }
 
 #footer {
@@ -90,14 +98,14 @@ h2 {
     background-color: #fff;
     border-color: #BF0978;
     border-style: dashed;
-    border-width: -2px;
+    border-width: 2px;
 }
 .dark {
     color: #fff;
     background-color: #321d49;
 }
 .step {
-    padding-bottom: 50vh;
+    padding-bottom: 70vh;
     /* margin-bottom: 10vh; */
     opacity: 0.25;
 }
@@ -117,7 +125,7 @@ h2 {
 
 @media (max-width: 750px) {
     .centered, .lefty, .righty, .fully {
-        width: 90vw;
+        width: 70vw;
         margin: 0 auto;
     }
 }

@@ -71,6 +71,13 @@ if (config.intro) {
     header.appendChild(intro);
 }
 
+if (config.minimap) {
+    var minimap = document.createElement('div');
+    minimap.innerHTML = config.minimap;
+    minimap.setAttribute('id', 'minimap');
+    header.appendChild(minimap);
+}
+
 if (header.innerText.length > 0) {
     header.classList.add(config.theme);
     header.setAttribute('id', 'header');
