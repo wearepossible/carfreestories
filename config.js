@@ -52,7 +52,7 @@ var config = {
                 center: [11.0767, 49.4521],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -71,7 +71,7 @@ var config = {
                 center: [77.216721, 28.644800],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -90,7 +90,7 @@ var config = {
                 center: [9.188540, 45.464664],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -109,7 +109,7 @@ var config = {
                 center: [-73.9690, 40.6602],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -128,7 +128,7 @@ var config = {
                 center: [-122.6750, 45.5051],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -147,7 +147,7 @@ var config = {
                 center: [-71.0589, 42.3601],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -166,7 +166,7 @@ var config = {
                 center: [18.0686, 59.3293],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -185,7 +185,7 @@ var config = {
                 center: [-3.7038, 40.4168],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -204,7 +204,7 @@ var config = {
                 center: [106.8456, -6.2088],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -223,7 +223,7 @@ var config = {
                 center: [2.3522, 48.8566],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -242,7 +242,83 @@ var config = {
                 center: [7.7521, 48.5734],
                 zoom: 11,
                 pitch: 60,
-                bearing: -43.2
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'kajaani',
+            alignment: 'left',
+            hidden: false,
+            title: 'Kajaani - lifting a city centre up by taking down the number of cars',
+            image: 'images/kajaani.jpg',
+            description: "<p>In the 1990s the centre of the city of Kajaani had been in decline for some time. For roughly two decades there had been &lsquo;heated debate&rsquo; over proposals to remove car traffic from the city&rsquo;s central area. In 1996 the decision was taken to go ahead with the traffic measures as part of the broader plan to stem and reverse the city centre&rsquo;s decline which was to be implemented from 1998. Once in place, the centre traffic didn&rsquo;t simply transfer onto neighbouring streets, there was actually an &lsquo;evaporation&rsquo; of traffic as people switched to active travel and public transport alternatives.</p><p>Polling conducted before and after the experiment showed a pronounced, positive shift in public attitudes towards the city centre. Before the changes 60 percent of residents thought the city a good place to live and 47 percent that the centre was &lsquo;beautiful&rsquo;. After the changes opinions shifted to 80 percent thinking Kajaani good to live in and 55 percent that the centre was beautiful.</p>",
+            location: {
+                center: [27.7278, 64.2222],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'ghent',
+            alignment: 'right',
+            hidden: false,
+            title: 'Ghent – where cars are only guests on the roads',
+            image: 'images/ghent.jpg',
+            description: "<p>Ghent, Belgium has become something of a poster-child for progressive transport policy, but to get to that point wasn&rsquo;t easy and took political courage in the face of opposition.</p><p>A medieval city, its maze of narrow streets and squares began to be overwhelmed by traffic during the 1980s. An early attempt was made in 1987 to reduce traffic and begin to address the combined problems of congestion, air and noise pollution, and poor conditions for cyclists, pedestrians and public transport. But the plan was cancelled after only 5 months due to vociferous protests from retailers.&nbsp;</p><p>A cycling plan was then introduced in 1993 followed by a city centre mobility plan in 1997. Prior to this, however, during 1996, there were over 300 public hearings to allow for extensive consultation on the proposals. That wasn&rsquo;t all. Advance notice of proposed road closures was also carefully communicated using a range of media channels including radio, television, maps and posters. Households were even mailed and a phone information line was established. Then, overnight in November 1997, and still in the face of much resistance, through traffic was stopped from entering the city centre.&nbsp;</p><p>The congestion that opponents warned of did not come about. Public transport use increased, the centre was opened to pedestrians and a range of life-enhancing cultural activities, making it more attractive to residents and visitors, began. Ghent not only built new infrastructure for cycling, including 300km of cycle routes and 7500 rental bikes, but the city also promoted the culture of cycling with art and exhibitions to increase its appeal. Journeys are now quicker by bike than by car.</p><p>In a decade the share of commutes by bike rose to one in five, more than double the national average, up from just 12 per cent. Ghent plans to be carbon-neutral by 2050 and won an international prize, the Eurostar Ashden Award for Sustainable Travel, in 2012.</p>",
+            location: {
+                center: [3.7174, 51.0543],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'oslo',
+            alignment: 'left',
+            hidden: false,
+            title: 'Oslo - where you can cycle in safety',
+            image: 'images/oslo.jpg',
+            description: "<p>Not a single pedestrian or cyclist died in a traffic incident in the city of Oslo, Norway in 2019. For comparison, in 1975 there had been 41 traffic fatalities (one person did die in 2019 when a driver drove into a fence). The turnaround was the result of years of considered work reducing traffic on the city&rsquo;s streets.</p><p>In spite of such extraordinary achievements, Oslo&rsquo;s shift to designing-out the car from the city has faced increasingly familiar opposition. Some from those who simply have had difficulty adapting to change, and more from individuals fearing a loss of business when cars are reduced on roads. In fact, Oslo city centre reported an increase of footfall of 10 per cent after reduction measures indicating that they made the streets more attractive to pedestrians.</p><p>What were some of the steps taken by the city? Most on-street parking was replaced with bike lanes and pavement for pedestrians. New street furniture such as benches were also introduced along with miniature parks. Certain major streets were closed to traffic, congestion charges were introduced along with lower, safer speed limits.&nbsp;One of the ways that Oslo came to overcome the doubts and opposition was by first experimenting with pilot projects.</p><p>Indicative, perhaps, of a broader cultural shift, something else extraordinary happened in 2019. Not a single child under the age of 15 anywhere in the whole country of Norway died in a road crash. City planners now see drivers as &lsquo;guests&rsquo; on the streets.</p><p>Oslo saw the number of trips taken by public transport increase by 63 percent in a decade from 2007 - 2017.. By 2017, 56% of public transport was powered by renewable energy with a target of going 100% renewable by 2020. This has included the conversion of ferries to be electric-powered; all boats are now planned to be &lsquo;emissions-free&rsquo; by 2024.</p>",
+            location: {
+                center: [10.7522, 59.9139],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'medelliin',
+            alignment: 'right',
+            hidden: false,
+            title: 'Medellín - where public space and public transport increased and violence radically reduced',
+            image: 'images/medellin.jpg',
+            description: "<p>Medell&iacute;n, the second largest city in Colombia, is an example of how the bold re-imagining of public space and the innovative use of public transport can overcome far greater threats and obstacles. In the early 1990s, Medell&iacute;n was the most violent city in the world. Since the early 2000s, however, the city has seen a remarkable transformation, becoming a world-renowned centre of innovation and tourist hub with a thriving civil society. It is now admired by city planners around the world for its innovative architecture and public infrastructure.</p><p>The transformation was accomplished by a progressive coalition of academics, community organisers and business people, who came together in the late 1990s to actively engage with communities and seek solutions to Medell&iacute;n&rsquo;s crisis. The coalition came up with proposals to invest in education, public infrastructure and public spaces in the city. The coalition came to be called Compromiso Ciudadano (&ldquo;citizen commitment&rdquo;), and eventually formed into a political party.</p><p>In 2003, the party&rsquo;s mayoral candidate, Sergio Farjado, was elected on a ticket based on the movement&rsquo;s proposals. Farjado dedicated his mayoral term to &ldquo;repaying the historic social debt&rdquo; to the poorest parts of the city. The collection of policies that he put in place included developing new public spaces, schools, parks and public libraries and supporting local businesses in the lowest-income areas of the city.&nbsp;</p><p>The participatory process to reimagine the city created a vibrant civic culture that still exists today. Decisive to Medell&iacute;n&rsquo;s social and security transition was the transformation of its physical space to be more inclusive. This was aided when Colombia launched a new National Constitution in 1991 which recognised public space as a constitutional right. This was used by subsequent mayors to justify changes.&nbsp;</p><p>Today, Medell&iacute;n now hosts Colombia&rsquo;s most advanced sustainable public transport network, and the city has vastly increased and enhanced green spaces, including through the development of a new green belt around the city&rsquo;s periphery.</p>",
+            location: {
+                center: [-75.5658, 6.2476],
+                zoom: 11,
+                pitch: 60,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
