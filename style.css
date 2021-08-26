@@ -97,17 +97,6 @@ h2 {
     padding-top: 0;
 }
 
-#footer {
-    width: 100%;
-    min-height: 5vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    text-align: center;
-    line-height: 25px;
-    font-size: 13px;
-    position: relative;
-    z-index: 5;
-}
 #features {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -177,10 +166,15 @@ h2 {
 
 #footer {
     width: 100%;
-    height: 50px;
     background: #BF0978;
     color: #fff;
     font-size: 80%;
+    z-index: 5;
+    min-height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    position: relative;
 }
 
 ul.share-buttons{
@@ -193,7 +187,6 @@ ul.share-buttons{
   }
   
   ul.share-buttons .sr-only{
-    position: absolute;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
     padding: 0;
@@ -203,17 +196,8 @@ ul.share-buttons{
     overflow: hidden;
   }
 
-#footernav {
-    position: relative;
-}
-
 #footernav nav {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     text-align: center;
 }
 
