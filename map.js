@@ -97,6 +97,7 @@ config.chapters.forEach((record, idx) => {
     if (record.image) {
         var image = new Image();
         image.src = record.image;
+        image.setAttribute('alt', record.title)
         chapter.appendChild(image);
     }
 
