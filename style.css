@@ -6,6 +6,19 @@ body {
 a, a:hover, a:visited {
     color: #BF0978;
 }
+
+ul>li{
+    display:inline-block;
+    padding: 0.5vh;
+    margin-bottom: 0.5vh;
+    background-color: #BF0978;
+}
+
+ul>li>a, a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
 #map {
     top:0;
     height: 100vh;
@@ -53,6 +66,10 @@ h2 {
     text-align: left;
 }
 
+#minimap {
+    padding-bottom: 4vh; 
+}
+
 #minimap h3 {
     color: #BF0978;
 }
@@ -61,6 +78,23 @@ h2 {
     width: 90%;
     height: auto;
     padding-bottom: 2vh;
+}
+
+#minimap ul {
+    width: 90%;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 2vh;
+    padding-left: 0;
+    display: none;
+    max-width: 60%;
+}
+
+#minimap img {
+    display: inline-block;
+    max-width: 200px;
+    width: 70%;
+    padding-top: 0;
 }
 
 #footer {
@@ -100,16 +134,14 @@ h2 {
 .light {
     color: #321d49;
     background-color: #fff;
-    border-color: #BF0978;
-    border-style: dashed;
-    border-width: 4px;
+    outline: 4px dashed #BF0978;
 }
 .dark {
     color: #fff;
     background-color: #321d49;
 }
 .step {
-    padding-bottom: 70vh;
+    padding-top: 70vh;
     /* margin-bottom: 10vh; */
     opacity: 0.25;
 }
@@ -118,7 +150,7 @@ h2 {
 }
 
 .step div {
-    padding:  25px 50px;
+    padding:  25px 25px;
     line-height: 25px;
     font-size: 16px;
 }
@@ -129,8 +161,17 @@ h2 {
 
 @media (max-width: 750px) {
     .centered, .lefty, .righty, .fully {
-        width: 70vw;
+        width: 100%;
         margin: 0 auto;
+    }
+    #header {
+        margin-top: 0;
+    }
+    #minimap svg {
+        display: none;
+    }
+    #minimap ul {
+        display: inline-block;
     }
 }
 
