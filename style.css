@@ -14,7 +14,7 @@ ul>li{
     background-color: #BF0978;
 }
 
-ul>li>a, a:hover, a:visited{
+ul>li>a, ul>li>a:hover, ul>li>a:visited{
     color: #fff;
     text-decoration: none;
 }

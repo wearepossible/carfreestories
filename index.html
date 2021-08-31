@@ -48,5 +48,20 @@
         </div>
 </div>
 
+<script>
+var anchors = document.getElementsByClassName('anchor');
+console.log(anchors)
+
+for (let anchor of anchors) {
+anchor.onclick = loseAnchor;
+}
+
+function loseAnchor() {
+  setTimeout(()=>{
+  history.replaceState('',document.title, window.location.origin + window.location.pathname + window.location.search);
+},5);
+}
+</script>
+
 </body>
 </html>
