@@ -163,6 +163,17 @@ h2 {
     #minimap ul {
         display: inline-block;
     }
+    h1 {
+        font-size: 250%;
+        margin: 10px;
+    }
+    .step {
+        padding-top: 50vh;
+        padding-bottom: 10vh;
+    }
+    .Footer-nav-item {
+        margin: 0 5px !important;
+    }
 }
 
 #footer {
