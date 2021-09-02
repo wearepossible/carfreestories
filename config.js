@@ -341,6 +341,24 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+        },
+        {
+            id: 'cta',
+            alignment: 'center',
+            hidden: false,
+            title: 'Share your stories',
+            description: "We'd love to hear more examples of traffic reduction measures from all around the world. Do you have a story about how attitudes to traffic reduction measures near you have changed? Please share it with us by <a href='https://action.wearepossible.org/page/89254/data/1' target='_blank'>filling out this form</a>.",
+            location: {
+                center: [0, 0],
+                zoom: 1.5,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         }
     ]
 };
