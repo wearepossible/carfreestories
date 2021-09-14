@@ -45,8 +45,8 @@ ul>li>a, ul>li>a:hover, ul>li>a:visited{
 }
 
 h1 {
-    padding: 2vh 2vw;
-    font-size: 400%;
+    padding: 2vh 3vw;
+    font-size: 350%;
     color: #BF0978;
     line-height: 100%;
 }
@@ -66,11 +66,18 @@ h2 {
     text-align: left;
 }
 
+#intro h3 {
+    padding: 1vh 4vw;
+    margin-bottom: 0;
+    text-align: left;
+}
+
 #minimap {
     padding-bottom: 4vh; 
 }
 
 #minimap h3 {
+    padding: 1vh 4vw;
     color: #BF0978;
 }
 
