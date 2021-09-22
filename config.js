@@ -347,7 +347,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Share your stories',
-            description: "We'd love to hear more examples of traffic reduction measures from all around the world. Do you have a story about how attitudes to traffic reduction measures near you have changed? Please share it with us by <a href='https://action.wearepossible.org/page/89254/data/1' target='_blank'>filling out this form</a>.",
+            description: "<p>We'd love to hear more examples of traffic reduction measures from all around the world. Do you have a story about how attitudes to traffic reduction measures near you have changed? Please share it with us by filling out this form</a>.</p><div id='buttonDiv'><a class='ctaButton' href='https://action.wearepossible.org/page/89254/data/1' target='_blank'>Fill out the form</a><a class='ctaButton' href='https://www.carfreemegacities.org/s/The-irresistible-rise-of-people-friendly-clean-air-cities.pdf' target='_blank'>Read the full report</a></div>",
             location: {
                 center: [0, 0],
                 zoom: 1.5,

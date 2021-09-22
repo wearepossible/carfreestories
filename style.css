@@ -108,6 +108,24 @@ h2 {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+#buttonDiv {
+    text-align: center;
+}
+
+.ctaButton {
+    background-color: #BF0978;
+        border: none;
+        color: white !important;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 700;
+        margin: 0 1vw;
+        cursor: pointer;
+}
+
 .hidden {
     display: none;
 }
