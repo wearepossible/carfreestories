@@ -1,77 +1,89 @@
 <!DOCTYPE html>
-<html lang ="en">
-<head>
-    <meta charset='utf-8' />
-    <link rel="icon" 
-      type="image/jpg" 
-      href="favicon.ico">
-    <title>Explore a world of Car Free Cities</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
-    <link href='style.css' rel='stylesheet' />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-    <script src="https://unpkg.com/scrollama"></script>
-    <meta property="og:title" content="Explore a world of Car Free Cities" />
-    <meta property="og:description" content="This is what people really think about traffic calming measures where they live." />
-    <meta property="og:url" content="https://wearepossible.github.io/carfreestories/" />
-    <meta property="og:image" content="https://wearepossible.github.io/carfreestories/og.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <meta property="og:type" content="website" />
-    <meta name="description" content="This is what people really think about traffic calming measures where they live.">
+<html lang="en">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPTHRTM661"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-CPTHRTM661');
-</script>
+<head>
+  <meta charset='utf-8' />
+  <link rel="icon" type="image/jpg" href="favicon.ico">
+  <title>Explore a world of Car Free Cities</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+  <link href='style.css' rel='stylesheet' />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://unpkg.com/scrollama@2.2.3"></script>
+  <meta property="og:title" content="Explore a world of Car Free Cities" />
+  <meta property="og:description"
+    content="This is what people really think about traffic calming measures where they live." />
+  <meta property="og:url" content="https://wearepossible.github.io/carfreestories/" />
+  <meta property="og:image" content="https://wearepossible.github.io/carfreestories/og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <meta property="og:type" content="website" />
+  <meta name="description" content="This is what people really think about traffic calming measures where they live.">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPTHRTM661"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-CPTHRTM661');
+  </script>
 
 
 </head>
-<body>
-<div id="map"></div>
-<div id="story"></div>
-<script src="./config.js"></script>
-<script src="./map.js"></script>
 
-<div id='footer'>
-  <div id='socialshare'>
-    <ul class="share-buttons">
-      <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&quote=Car%20Free%20Stories%20of%20Change" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/simple_icons/Facebook.png" /></a></li>
-      <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&text=Car%20Free%20Stories%20of%20Change:%20https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&via=_wearepossible" target="_blank" title="Tweet"><img alt="Tweet" src="images/simple_icons/Twitter.png" /></a></li>
-      <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&title=Car%20Free%20Stories%20of%20Change&summary=The%20irresistible%20rise%20of%20people-friendly%2C%20clean%20air%20cities&source=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="images/simple_icons/LinkedIn.png" /></a></li>
-      <li><a href="mailto:?subject=Car%20Free%20Stories%20of%20Change&body=The%20irresistible%20rise%20of%20people-friendly%2C%20clean%20air%20cities:%20https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons/Email.png" /></a></li>
-    </ul>
-  </div>
-  <div id = footernav>
-  <nav aria-label="Footer" class="Footer-nav" data-content-field="navigation"><a class="Footer-nav-item"
+<body>
+  <div id="map"></div>
+  <div id="story"></div>
+  <script src="./config.js"></script>
+  <script src="./map.js"></script>
+
+  <div id='footer'>
+    <div id='socialshare'>
+      <ul class="share-buttons">
+        <li><a
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&quote=Car%20Free%20Stories%20of%20Change"
+            title="Share on Facebook" target="_blank"><img alt="Share on Facebook"
+              src="images/simple_icons/Facebook.png" /></a></li>
+        <li><a
+            href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&text=Car%20Free%20Stories%20of%20Change:%20https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&via=_wearepossible"
+            target="_blank" title="Tweet"><img alt="Tweet" src="images/simple_icons/Twitter.png" /></a></li>
+        <li><a
+            href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F&title=Car%20Free%20Stories%20of%20Change&summary=The%20irresistible%20rise%20of%20people-friendly%2C%20clean%20air%20cities&source=https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F"
+            target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn"
+              src="images/simple_icons/LinkedIn.png" /></a></li>
+        <li><a
+            href="mailto:?subject=Car%20Free%20Stories%20of%20Change&body=The%20irresistible%20rise%20of%20people-friendly%2C%20clean%20air%20cities:%20https%3A%2F%2Fwearepossible.github.io%2Fcarfreestories%2F"
+            target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons/Email.png" /></a></li>
+      </ul>
+    </div>
+    <div id=footernav>
+      <nav aria-label="Footer" class="Footer-nav" data-content-field="navigation"><a class="Footer-nav-item"
           href="https://wearepossible.org/careers" target="_blank">Careers</a><a class="Footer-nav-item"
           href="https://www.wearepossible.org/contact" target="_blank">Contact</a><a class="Footer-nav-item"
           href="https://www.wearepossible.org/findstuff" target="_blank">Search</a><a class="Footer-nav-item"
           href="https://www.wearepossible.org/media" target="_blank">Media</a><a class="Footer-nav-item"
           href="https://www.wearepossible.org/legalcookies" target="_blank">Legal/Cookies</a></nav>
-        </div>
-</div>
+    </div>
+  </div>
 
-<script>
-var anchors = document.getElementsByClassName('anchor');
+  <script>
+    var anchors = document.getElementsByClassName('anchor');
 
-for (let anchor of anchors) {
-anchor.onclick = loseAnchor;
-}
+    for (let anchor of anchors) {
+      anchor.onclick = loseAnchor;
+    }
 
-function loseAnchor() {
-  setTimeout(()=>{
-  history.replaceState('',document.title, window.location.origin + window.location.pathname + window.location.search);
-},5);
-}
-</script>
+    function loseAnchor() {
+      setTimeout(() => {
+        history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+      }, 5);
+    }
+  </script>
 
 </body>
+
 </html>
