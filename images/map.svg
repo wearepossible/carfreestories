@@ -3,75 +3,77 @@
 <path id="Vector_2" d="M987.326 445.029L985.199 451.864L1000.72 440.757L996.256 434.777V427.941L993.705 429.009V438.621L987.326 445.029ZM946.501 467.457L978.821 451.01V455.282L953.943 471.729L946.501 467.457ZM814.034 383.086L841.251 370.27L861.45 347.842L872.507 352.755L877.397 342.502L895.896 342.075L891.218 350.619L906.527 363.862L916.733 353.609V339.298L921.411 340.793L926.727 366.425L943.312 389.921L941.611 407.65L911.418 439.048L885.265 437.553L882.075 419.825L873.145 423.669L864.64 416.193L812.971 427.514L809.782 423.669L814.034 413.417V383.086Z" fill="#D6D2DB" stroke="white" stroke-width="0.25" stroke-linejoin="bevel"/>
 </g>
 <g id="cities">
-<a xlink:href="#oslo" xlink:title="Oslo">
-<circle id="oslo" cx="485.817" cy="75.1973" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#newyork" xlink:title="New York">
-<circle id="nyc" cx="217.399" cy="145.239" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#boston" xlink:title="Boston">
-<circle id="boston" cx="225.389" cy="135.33" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#medellin" xlink:title="Medellin">
-<circle id="medellin" cx="190.887" cy="269.395" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#curitiba" xlink:title="Curitiba">
-<circle id="curitiba" cx="288.443" cy="385.778" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#portland" xlink:title="Portland">
-<circle id="portland" cx="79.4852" cy="116.272" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#stockholm" xlink:title="Stockholm">
-<circle id="stockholm" cx="507.907" cy="73.5113" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#kajaani" xlink:title="Kajaani">
-<circle id="kajaani" cx="528.72" cy="56.4346" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#tallinn" xlink:title="Tallinn">
-<circle id="tallinn" cx="526.147" cy="75.1973" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#nuremburg" xlink:title="Nuremburg">
-<circle id="nuremburg" cx="476.485" cy="115.096" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#strasbourg" xlink:title="Strasbourg">
-<circle id="strasbourg" cx="481.058" cy="102.111" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#ghent" xlink:title="Ghent">
-<circle id="ghent" cx="468.658" cy="103.582" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#london" xlink:title="London">
-<circle id="london" cx="455.901" cy="101.226" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#birmingham" xlink:title="Birmingham">
-<circle id="birmingham" cx="447.838" cy="91.741" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#bristol" xlink:title="Bristol">
-<circle id="bristol" cx="443.677" cy="103.582" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#freiburg" xlink:title="Freiburg">
-<circle id="freiburg" cx="488.885" cy="111.775" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#berlin" xlink:title="Berlin">
-<circle id="berlin" cx="492.573" cy="97.8245" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#paris" xlink:title="Paris">
-<circle id="paris" cx="461.659" cy="114.21" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#newdelhi" xlink:title="New Delhi">
-<circle id="newdelhi" cx="707.869" cy="187.656" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#jakarta" xlink:title="Jakarta">
-<circle id="jakarta" cx="821.156" cy="316.181" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#milan" xlink:title="Milan">
-<circle id="milan" cx="483.128" cy="125.725" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#madrid" xlink:title="Madrid">
-<circle id="madrid" cx="442.966" cy="143.661" r="5.7572" fill="#BF0978"/>
-</a>
-<a xlink:href="#pontevedra" xlink:title="Pontevedra">
-<circle id="pontevedra" cx="427.161" cy="133.369" r="5.7572" fill="#BF0978"/>
-</a>
-</g>
+        <a xlink:href="#oslo" xlink:title="Oslo">
+            <circle id="c_oslo" cx="485.817" cy="75.1973" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#newyork" xlink:title="New York">
+            <circle id="c_nyc" cx="217.399" cy="145.239" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#boston" xlink:title="Boston">
+            <circle id="c_boston" cx="225.389" cy="135.33" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#medellin" xlink:title="Medellin">
+            <circle id="c_medellin" cx="190.887" cy="269.395" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#curitiba" xlink:title="Curitiba">
+            <circle id="c_curitiba" cx="288.443" cy="385.778" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#portland" xlink:title="Portland">
+            <circle id="c_portland" cx="79.4852" cy="116.272" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#stockholm" xlink:title="Stockholm">
+            <circle id="c_stockholm" cx="507.907" cy="73.5113" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#kajaani" xlink:title="Kajaani">
+            <circle id="c_kajaani" cx="528.72" cy="56.4346" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#tallinn" xlink:title="Tallinn">
+            <circle id="c_tallinn" cx="526.147" cy="75.1973" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#nuremburg" xlink:title="Nuremburg">
+            <circle id="c_nuremburg" cx="476.485" cy="115.096" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#strasbourg" xlink:title="Strasbourg">
+            <circle id="c_strasbourg" cx="481.058" cy="102.111" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#ghent" xlink:title="Ghent">
+            <circle id="c_ghent" cx="468.658" cy="103.582" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#london" xlink:title="London">
+            <circle id="c_london" cx="455.901" cy="101.226" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#birmingham" xlink:title="Birmingham">
+            <circle id="c_birmingham" cx="447.838" cy="91.741" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#bristol" xlink:title="Bristol">
+            <circle id="c_bristol" cx="443.677" cy="103.582" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#freiburg" xlink:title="Freiburg">
+            <circle id="c_freiburg" cx="488.885" cy="111.775" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#berlin" xlink:title="Berlin">
+            <circle id="c_berlin" cx="492.573" cy="97.8245" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#paris" xlink:title="Paris">
+            <circle id="c_paris" cx="461.659" cy="114.21" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#newdelhi" xlink:title="New Delhi">
+            <circle id="c_newdelhi" cx="707.869" cy="187.656" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#jakarta" xlink:title="Jakarta">
+            <circle id="c_jakarta" cx="821.156" cy="316.181" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#milan" xlink:title="Milan">
+            <circle id="c_milan" cx="483.128" cy="125.725" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#madrid" xlink:title="Madrid">
+            <circle id="c_madrid" cx="442.966" cy="143.661" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#pontevedra" xlink:title="Pontevedra">
+            <circle id="c_pontevedra" cx="427.161" cy="133.369" r="5.7572" fill="#BF0978" />
+        </a>
+        <a xlink:href="#kigali" xlink:title="Kigali">
+            <circle id="c_kigali" cx="554" cy="302" r="5.7572" fill="#BF0978" />
+        </a>
 </g>
 </svg>
